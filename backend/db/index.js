@@ -1,11 +1,11 @@
 
 import mongoose from "mongoose";
-import {DB_NAME} from "../constant.js"
+import {DB_NAME, PASSWORD} from "../constant.js"
 
 
 const connectDB = async ()=>{
     try{
-       await mongoose.connect(`mongodb+srv://tm943359:tanmay123@cluster0.bgykeyo.mongodb.net/${DB_NAME}`);
+       await mongoose.connect(`mongodb+srv://tanmaymishra1551:${PASSWORD}@cluster0.osomdpq.mongodb.net/${DB_NAME}?retryWrites=true&w=majority&appName=Cluster0/`);
        console.log(`MongoDB connected`);
     }
     catch(error){
