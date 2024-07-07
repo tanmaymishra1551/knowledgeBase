@@ -4,3 +4,6 @@ Completed
  add proxy 
  check db if data is saving when send from frontend 
  Now
+ understanding redux
+ check once
+ usr not saving in db
