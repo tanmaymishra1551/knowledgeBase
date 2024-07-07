@@ -1,7 +1,8 @@
 import { initializeApp } from "firebase/app";
 
+
 const firebaseConfig = {
-  apiKey: "AIzaSyDjo2adgUZ0_95sIEPkVi1qKwwhYWI4-ao",
+  apiKey: import.meta.env.VITE_FIREBASE_API_KEY,
   authDomain: "knowlegebase-87f7f.firebaseapp.com",
   projectId: "knowlegebase-87f7f",
   storageBucket: "knowlegebase-87f7f.appspot.com",
