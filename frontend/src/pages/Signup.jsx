@@ -11,7 +11,8 @@ import {
 
 export default function SignIn() {
   const [formData, setFormData] = useState({});
-  const { loading, error: errorMessage } = useSelector((state) => state.user);
+  const [errorMessage, setErrorMessage] = useState(null);
+  const [loading, setLoading] = useState(false);
   const dispatch = useDispatch();
   const navigate = useNavigate();
   const handleChange = (e) => {
@@ -23,7 +24,8 @@ export default function SignIn() {
       return dispatch(signInFailure('Please fill all the fields'));
     }
     try {
-      dispatch(signInStart());
+      setLoading(true);
+      setErrorMessage(null);
       const res = await fetch('/api/auth/signup', {
         method: 'POST',
         headers: { 'Content-Type': 'application/json' },
