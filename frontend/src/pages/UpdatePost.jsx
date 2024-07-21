@@ -31,7 +31,6 @@ export default function UpdatePost() {
         const res = await fetch(`/api/post/getposts?postId=${postId}`);
         const data = await res.json();
         if (!res.ok) {
-          console.log(data.message);
           setPublishError(data.message);
           return;
         }
@@ -94,6 +93,7 @@ export default function UpdatePost() {
         body: JSON.stringify(formData),
       });
       const data = await res.json();
+      console.log(data)
       if (!res.ok) {
         setPublishError(data.message);
         return;
