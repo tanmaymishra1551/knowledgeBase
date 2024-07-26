@@ -4,8 +4,8 @@
   "description": "Completed\r  run sign up page\r  add functionsality to signup page\r  add proxy \r  check db if data is saving when send from frontend \r  usr not saving in db\r  Now\r  understanding redux\r  password is not updating individually\r  check once",
   "main": "index.js",
   "scripts": {
-    "build": "npm run build --prefix backend && npm run build --prefix frontend",
-    "start": "npm run start --prefix backend & npm run start --prefix frontend"
+    "build": "cd backend && npm install && npm run build && cd ../frontend && npm install && npm run build",
+    "start": "cd backend && npm start & cd ../frontend && npm start"
   },
   "author": "tanmay",
   "license": "ISC"
