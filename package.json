@@ -4,9 +4,12 @@
   "description": "Completed\r  run sign up page\r  add functionsality to signup page\r  add proxy \r  check db if data is saving when send from frontend \r  usr not saving in db\r  Now\r  understanding redux\r  password is not updating individually\r  check once",
   "main": "index.js",
   "scripts": {
-    "build": "cd backend && npm install && npm run build && cd frontend && npm install && cd src npm run build",
-    "start": "cd backend && npm start & cd frontend && cd src npm start"
+    "build": "cd backend && npm install  && cd ../frontend && npm install && npm run build",
+    "start": "concurrently \"cd backend && node index.js\" \"cd frontend && npm start\""
   },
   "author": "tanmay",
-  "license": "ISC"
+  "license": "ISC",
+  "dependencies": {
+    "concurrently": "^8.2.2"
+  }
 }
