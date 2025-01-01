@@ -5,11 +5,6 @@
     </a>
   <br />
 
-  <div>
-    <img src="https://camo.githubusercontent.com/6d8b126f83c0e59e37021e68c3f650c5c98915301f4bf4db9661c8d1dc2725e3/68747470733a2f2f696d672e736869656c64732e696f2f62616467652f2d52656163745f4a532d626c61636b3f7374796c653d666f722d7468652d6261646765266c6f676f436f6c6f723d7768697465266c6f676f3d726561637426636f6c6f723d363144414642" alt="react.js" />
-    <img src="https://camo.githubusercontent.com/e69f163b0b8defad9786f979113f151063a893349c1fce6647cd7a4a334c6469/68747470733a2f2f696d672e736869656c64732e696f2f62616467652f2d5461696c77696e645f4353532d626c61636b3f7374796c653d666f722d7468652d6261646765266c6f676f436f6c6f723d7768697465266c6f676f3d7461696c77696e6463737326636f6c6f723d303642364434" alt="tailwindcss" />
-  </div>
-
   <h3 align="center">Knowledge Base WebApp</h3>
 
    <div align="center">
@@ -34,6 +29,21 @@ This is a webapp that showcase tips and tricks to the commonly used components &
 - React.js
 - Vite
 - Tailwind CSS
+
+## Screenshot 🖼️
+
+Screenshot of the homepage or any significant feature of the blog.
+<img src="https://github.com/tanmaymishra1551/knowledgeBase/blob/c3762802b0806e73c5f97c88fddafabf0aebdd96/Post.png">
+
+
+<img src="https://github.com/tanmaymishra1551/knowledgeBase/blob/c3762802b0806e73c5f97c88fddafabf0aebdd96/Profile.png">
+
+
+<img src="https://github.com/tanmaymishra1551/knowledgeBase/blob/c3762802b0806e73c5f97c88fddafabf0aebdd96/comments.png">
+
+<img src="https://github.com/tanmaymishra1551/knowledgeBase/blob/c3762802b0806e73c5f97c88fddafabf0aebdd96/posts.png">
+
+<img src="https://github.com/tanmaymishra1551/knowledgeBase/blob/c3762802b0806e73c5f97c88fddafabf0aebdd96/signin.png">
 
 ## <a name="features">🔋 Features</a>
 
